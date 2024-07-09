@@ -6,10 +6,6 @@
   "scripts": {
     "test": "test"
   },
-  "jest": {
-    "present": "ts-jest",
-    "testEnvironment": "node"
-  },
   "author": "Pranav Kangale",
   "license": "ISC",
   "devDependencies": {
@@ -17,5 +13,8 @@
     "@types/node": "^20.14.10",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.0"
+  },
+  "dependencies": {
+    "redline": "^1.0.1"
   }
 }
