@@ -1,35 +1,50 @@
-# Magical Arena
-
-## Description
+# Magic Arena
 
 A simple game where two players fight in an arena using dice rolls to determine attack and defense outcomes.
 
-Packages used: 1. readline : Node.js's module for reading user input.
+## Tech Stack
 
-Steps to run the program :
+**Client:** NodeJS , Typescipt , Javascript
 
-    1. Install all the dependencies
+**Package:** readline : Node.js's module for reading user input.
 
-        `$ npm i`
+## Installation
 
+1. Install all related dependencies with npm
 
+```bash
+    cd <project directory>
+    npm install
+```
 
-    2. To run the program,
+2. Run the Program and follow the CLI to interact with Arena
 
-        (
-            If 'ts-node' is not installed,
-            install it globlly using
-            `$ npm install -g ts-node typescript '@types/node`
+```bash
+    ts-node index.ts
+```
 
-            referrence: https://stackoverflow.com/questions/33535879/how-to-run-typescript-files-from-command-line
-        )
+If Typescript `ts-node` is not installed , install Typescript globally using
 
-        `$ ts-node index.ts`
+```bash
+    npm install -g ts-node typescript '@types/node
+```
 
-        and follow the CLI to interact with the arena.
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npx jest
+```
 
 ## Files
 
-    - `Player.ts` : Defines the Player class
-    - `Arena.ts` : Defines the Arena class
-    - `index.ts` : Defines the main function and runs the program
+    - `Player.ts`           : Defines the Player class
+    - `Arena.ts`            : Defines the Arena class
+    - `index.ts`            : Defines the main function and runs the program
+    - `arena.test.ts`       : Contains the tests for the Arena
+    - `util.common.test.ts` : Contains the tests for logic of the game
+
+## Author
+
+- [@pranavkangale5](https://www.github.com/pranavkngale5)
