@@ -6,6 +6,10 @@
   "scripts": {
     "test": "test"
   },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
   "author": "Pranav Kangale",
   "license": "ISC",
   "devDependencies": {
