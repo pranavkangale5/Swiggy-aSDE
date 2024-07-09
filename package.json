@@ -1,0 +1,21 @@
+{
+  "name": "swiggy-asde-coding-assignment",
+  "version": "1.0.0",
+  "description": "A simple game where two players fight in an arena using dice rolls to determine attack and defense outcomes",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "jest": {
+    "present": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "author": "Pranav Kangale",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.0"
+  }
+}
